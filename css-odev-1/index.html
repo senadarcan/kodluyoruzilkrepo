@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            display: none;
+        }
+
+        .band-info {
+            border: 1px solid #4CAF50;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .band-photo {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #thesmiths {
+            display: block;
+            background-color: #d2ffd2; /* Soft Yeşil */
+        }
+
+        #rem {
+            background-color: #ffcce6; /* Soft Pembe */
+        }
+
+        #scorpions {
+            background-color: #ffcc99; /* Soft Turuncu */
+        }
+
+        #radiohead {
+            background-color: #d9ccff; /* Soft Mor */
+        }
+
+        section:target {
+            display: block;
+        }
+    </style>
+    <title>Rock Atlas</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Atlas</h1>
+    </header>
+
+    <nav>
+        <a href="#thesmiths">The Smiths</a>
+        <a href="#rem">R.E.M</a>
+        <a href="#scorpions">Scorpions</a>
+        <a href="#radiohead">Radiohead</a>
+    </nav>
+
+    <section id="thesmiths">
+        <div class="band-info">
+            <h2>The Smiths</h2>
+            <img src="https://i.scdn.co/image/ab67616d00001e02ed3953f8af1f764a146b7583" alt="The Smiths Album Cover" class="band-photo">
+            <p>The Smiths, İngiliz rock müziği grubudur. 1982-1987 yılları arasında faaliyet göstermişlerdir. Grup, alternatif rock ve indie pop türlerinde önemli bir etki yaratmıştır.</p>
+            <p>En çok bilinen albümleri: "The Queen Is Dead", "Meat Is Murder", "Strangeways, Here We Come"</p>
+            <p>En Bilinen Şarkıları: "There Is a Light That Never Goes Out", "How Soon Is Now?", "This Charming Man"</p>
+            <p>Spotify: <a href="spotify:artist:3yaaQ3ysZ66W2KzbV2e5VH" target="_blank">The Smiths on Spotify</a></p>
+        </div>
+    </section>
+
+    <section id="rem">
+        <div class="band-info">
+            <h2>R.E.M</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/R.E.M._-_Monster.jpg" alt="R.E.M Album Cover" class="band-photo">
+            <p>R.E.M, Amerikalı bir rock müziği grubudur. 1980-2011 yılları arasında faaliyet göstermişlerdir. Alternatif rock türünde birçok başarılı albüme imza atmışlardır.</p>
+            <p>En çok bilinen albümleri: "Automatic for the People", "Out of Time", "Document"</p>
+            <p>En Bilinen Şarkıları: "Losing My Religion", "Everybody Hurts", "Man on the Moon"</p>
+            <p>Spotify: <a href="spotify:artist:4KWTAlx2RvbpseOGMEmROg" target="_blank">R.E.M on Spotify</a></p>
+        </div>
+    </section>
+
+    <section id="scorpions">
+        <div class="band-info">
+            <h2>Scorpions</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Scorpions-album-lovedrive.jpg/220px-Scorpions-album-lovedrive.jpg" alt="Scorpions Album Cover" class="band-photo">
+            <p>Scorpions, Alman rock müziği grubudur. 1965 yılında kurulmuş olup, dünya genelinde büyük bir hayran kitlesine sahiptir. Hard rock ve heavy metal tarzında eserler vermişlerdir.</p>
+            <p>En çok bilinen albümleri: "Blackout", "Love at First Sting", "Crazy World"</p>
+            <p>En Bilinen Şarkıları: "Wind of Change", "Rock You Like a Hurricane", "Still Loving You"</p>
+            <p>Spotify: <a href="spotify:artist:3Z02hBLubJxuFJfhacLSDc" target="_blank">Scorpions on Spotify</a></p>
+        </div>
+    </section>
+
+    <section id="radiohead">
+        <div class="band-info">
+            <h2>Radiohead</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/55/Radioheadthebends.png" alt="Radiohead Album Cover" class="band-photo">
+            <p>Radiohead, İngiliz rock müziği grubudur. 1985 yılında kurulmuş, deneysel rock ve alternatif rock türlerinde müzik yapmaktadırlar. Yaratıcı ve yenilikçi çalışmaları ile tanınırlar.</p>
+            <p>En çok bilinen albümleri: "OK Computer", "Kid A", "The Bends"</p>
+            <p>En Bilinen Şarkıları: "Paranoid Android", "Creep", "Karma Police"</p>
+            <p>Spotify: <a href="spotify:artist:4Z8W4fKeB5YxbusR" target="_blank">Radiohead on Spotify</a></p>
+        </div>
+    </section>
+</body>
+</html>
+
